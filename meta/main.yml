@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  role_name: unattended-upgrades
+  author: Dominik Lenhardt
+  description: Installing and configure unattended-upgrades for Ubuntu
+  license: "MIT"
+  min_ansible_version: "2.9"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - bionic
+        - jammy
+  galaxy_tags:
+  - system
+  - linux
+  - unattended-upgrades
+dependencies: []
